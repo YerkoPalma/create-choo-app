@@ -1,10 +1,10 @@
 {
-  "name": "create-choo-app",
-  "description": "Create a fresh choo application",
-  "repository": "choojs/create-choo-app",
+  "name": "create-choo-fastify",
+  "description": "Create a fresh choo + fastify application",
+  "repository": "YerkoPalma/create-choo-fastify",
   "version": "1.9.1",
   "bin": {
-    "create-choo-app": "./bin.js"
+    "create-choo-fastify": "./bin.js"
   },
   "scripts": {
     "deps": "dependency-check . && dependency-check . -i ./bin.js --extra --no-dev",
@@ -28,6 +28,7 @@
   "keywords": [
     "generate",
     "choo",
+    "fastify",
     "create"
   ],
   "license": "MIT"
